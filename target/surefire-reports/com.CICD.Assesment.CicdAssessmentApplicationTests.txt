@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.CICD.Assesment.CicdAssessmentApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.595 s <<< FAILURE! - in com.CICD.Assesment.CicdAssessmentApplicationTests
+contextontrollerTest  Time elapsed: 1.126 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<welcome[1]> but was:<welcome[]>
+	at com.CICD.Assesment.CicdAssessmentApplicationTests.contextontrollerTest(CicdAssessmentApplicationTests.java:21)
+
