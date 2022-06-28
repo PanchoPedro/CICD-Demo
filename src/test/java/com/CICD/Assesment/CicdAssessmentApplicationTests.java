@@ -18,7 +18,7 @@ class CicdAssessmentApplicationTests {
 	void contextontrollerTest() {
 		CICDController junit = new CICDController();
 		String result = junit.cicd(new ExtendedModelMap());
-		assertEquals("welcome",result);
+		assertEquals("welcome1",result);
 	}
 
 }

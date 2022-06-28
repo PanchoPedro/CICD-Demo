@@ -21,7 +21,7 @@
     <repository>
         <id>Test</id>
         <name>Test Repository</name>
-        <url>file:///C:/Users/Pedro/testrepo/</url>
+        <url>file:///home/</url>
     </repository>
 </distributionManagement> 
 	
@@ -61,14 +61,11 @@
 	<build>
 	
 		<plugins>
-		<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-resources-plugin</artifactId>
-    <version>3.1.0</version>
-</plugin> 
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				
 			</plugin>
 		</plugins>
 	</build>
