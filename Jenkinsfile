@@ -6,7 +6,7 @@ pipeline {
         stage('Unit tests') {
             steps {
               
-		sh "mvn -B -f clean test"
+		sh "mvn clean test"
             }
         }
         stage('Deploy') {
